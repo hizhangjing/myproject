@@ -1,4 +1,6 @@
 #!/bin/bash
+#tihs code is used to establishd Lnmp 
+#Requist:you must put the following packages (lnmp_soft.tar.gz) at /root/
 useradd -s /sbin/nologin nginx
 yum -y install gcc pcre-devel openssl-devel
 tar -xf /lnmp_soft.tar.gz 
